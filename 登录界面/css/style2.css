@@ -1,0 +1,59 @@
+*{
+				margin: 0;
+				padding: 0;
+			}
+			body{
+				background: rgb(101, 110, 186);
+			}
+			form{
+				width: 350px;
+				height: 500px;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%,-50%);
+				border-radius: 10px;
+				background: rgb(151, 164, 194);
+				padding-left: 50px;
+				padding-top: 50px;
+				padding-bottom: 20px;
+			}
+			p{
+				font-size: 18px;
+				line-height: 20px;
+				font-family: "arial black";
+				margin-top: 15px;
+				letter-spacing: 1px;
+			}
+			input[type="text"],input[type="password"],input[type="email"]{
+				width: 200px;
+				height: 28px;
+				box-shadow: 1vh 1px #f3f3f3 inset; 
+				border-radius: 8px;
+			}
+			input[type="submit"]{
+				width: 300px;
+				height: 30px;
+				font-size: 17px;
+				margin-top: 40px;
+				font-family: "微软雅黑";
+				background:  rgb(95, 76, 194);
+				cursor: pointer;
+				box-shadow: 1px 1px 1px #000000 ;
+			}
+			input[type="submit"]:hover{
+				background-color: rgb(199, 191, 219);
+				}
+			#inp{
+				width: 100px;
+				height: 28px;
+			}
+			#span{
+				border: 1px solid black;
+				background: white;
+				font-size: 15px;
+				margin-left: 4px;
+				padding: 0px 5px 3px 5px;
+				cursor: pointer;
+				box-shadow: 1px 1px 1px #000000;
+			}
